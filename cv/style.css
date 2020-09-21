@@ -15,7 +15,7 @@ ul { list-style-type: circle;
     width: 100%;
     text-align: center;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.4s;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 border: transparent;
@@ -33,10 +33,28 @@ font-size: 30px;
 margin-left: 100px;
 }
 
-senap {
+img {
     position: absolute;
     left: 1400px;
     top: 200px;
     z-index: -1;
     width: 300px;
   }
+
+#ka {
+  width: 750px;
+  height:500px;
+  position: absolute;
+  left: 1100px;
+  top: 200px;
+  z-index: -1;
+}
+
+#jag {
+width: 400px;
+height: 600px;
+position: absolute;
+left: 1200px;
+top: 200px;
+z-index: -1;
+}
