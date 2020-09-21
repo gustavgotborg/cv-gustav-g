@@ -1,0 +1,42 @@
+body {background-color: wheat;}
+
+ul { list-style-type: circle;
+
+}
+
+.tab button:hover {
+    background-color:whitesmoke;
+  }
+  .tab button {
+    display: block;
+    background-color:wheat;
+    color: black;
+    padding: 109px 80px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: transparent;
+  }
+
+  h1 {
+text-align: center;
+font-size: 70px;
+  }
+
+p {
+text-align: center;
+margin-right: 900px;
+font-size: 30px;
+margin-left: 100px;
+}
+
+senap {
+    position: absolute;
+    left: 1400px;
+    top: 200px;
+    z-index: -1;
+    width: 300px;
+  }
